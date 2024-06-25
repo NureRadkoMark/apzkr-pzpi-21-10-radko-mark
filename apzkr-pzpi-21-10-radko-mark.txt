@@ -617,7 +617,7 @@ ER-діаграма, що описує систему управління ме�
 1. Covetrus Ascend, your practice wherever you need it. URL: https://software.covetrus.com/emea/ (дата звернення: 26.03.2024).
 2. Optimise your candidate experience with our Cornerstone integration URL: https://www.inploi.com/integrations/cornerstone (дата звернення: 25.03.2024).
 3. Pulse™ Login URL: https://login.evetpractice.com (дата звернення: 26.03.2024).
-4. GitHub - NureRadkoMark/apzkr-pzpi-21-10-radko-mark. GitHub. URL:  (дата звернення: 06.06.2024).
+4. GitHub - NureRadkoMark/apzkr-pzpi-21-10-radko-mark. GitHub. URL: https://github.com/NureRadkoMark/apzkr-pzpi-21-10-radko-mark (дата звернення: 06.06.2024).
 5. Радько Марк. Apzkr-pzpi-21-10-radko-mark, 2024. YouTube. URL:  https://youtu.be/DpYq5eEuTmM (дата звернення: 06.06.2024).
 6. Мартін Р. Чистий код: створення і рефакторинг за допомогою AGILE. – ФАБУЛА, 2019. – 416 с.
 7. Martin Fowler. Refactoring. Improving the Design of Existing Code– Addison-Wesley Professional, 1999. – 464 с.
