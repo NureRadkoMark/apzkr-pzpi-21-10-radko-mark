@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".views.HomeActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кабінет"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/textViewCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewBarcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp"/>
+
+    <!-- Контейнер для кнопок -->
+    <GridLayout
+        android:id="@+id/gridLayoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewCode"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="180dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <!-- Пример кнопки -->
+        <Button
+            android:id="@+id/buttonProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_profile"
+            android:text="Профіль" />
+
+        <Button
+            android:id="@+id/buttonAppointment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_doctor"
+            android:text="Запис до лікаря" />
+
+        <Button
+            android:id="@+id/buttonMyAppointments"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_records"
+            android:text="Мої записи" />
+
+        <Button
+            android:id="@+id/buttonMyPets"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_favorite"
+            android:text="Мої улюбленці" />
+
+        <Button
+            android:id="@+id/buttonMyCalendar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_schedule"
+            android:text="Мій розклад" />
+
+        <!-- Добавьте остальные кнопки здесь -->
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вийти"
+        android:layout_alignParentBottom="true"
+        android:onClick="logout"
+        android:padding="16dp" />
+
+</RelativeLayout>
+
+
