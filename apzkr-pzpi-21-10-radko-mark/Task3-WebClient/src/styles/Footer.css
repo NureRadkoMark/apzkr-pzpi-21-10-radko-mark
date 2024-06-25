@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; /* Minimum height is the height of the screen */
+}
+
+.main-content {
+    flex: 1; /* Takes all available space between NavBar and Footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-right {
+    align-items: flex-end;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.footer {
+    background-color: #402868;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position: relative; /* Change from fixed to relative */
+    bottom: 0;
+    left: 0;
+    transition: transform 0.3s ease-out; /* Animation for showing/hiding footer */
+    transform: translateY(0); /* Initial position of the footer (visible) */
+    z-index: 1000;
+    margin-top: 100px; /* Ensures footer stays at the bottom if content is short */
+}
+
+.footer.hidden {
+    transform: translateY(100%); /* Hide footer off screen */
+}
+
+
+
+
+
+

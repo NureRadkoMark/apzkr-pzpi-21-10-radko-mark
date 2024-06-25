@@ -1,0 +1,67 @@
+.employee-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+}
+
+.employees-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.employee-item {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+.employee-item:hover {
+    background-color: #e0e0e0;
+}
+
+.employee-details {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.work-hours-details {
+    margin-top: 10px;
+}
+
+.work-hours-details p {
+    margin: 5px 0;
+}
+
+.pay-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}
+
+.notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}

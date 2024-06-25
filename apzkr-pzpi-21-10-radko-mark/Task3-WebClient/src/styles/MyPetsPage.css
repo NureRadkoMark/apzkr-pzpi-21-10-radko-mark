@@ -1,0 +1,88 @@
+.mypets-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mypets-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.pets-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.pet-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;  /* Добавляем курсор указатель */
+    transition: background-color 0.3s;  /* Добавляем плавный переход */
+}
+
+.pet-card.selected {
+    background-color: #e0e0e0;
+    border-color: #007bff;
+}
+
+.pet-card:hover {
+    background-color: #f0f0f0;
+}
+
+.pet-card h2, .pet-card p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.appointment-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.appointment-button:hover {
+    background-color: #218838;
+}
+
+.add-pet-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.add-pet-button:hover {
+    background-color: #0056b3;
+}
+
+.mypets-container p {
+    text-align: center;
+    color: #000000;
+}

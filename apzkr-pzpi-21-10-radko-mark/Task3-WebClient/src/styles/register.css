@@ -1,0 +1,51 @@
+/* Reg.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 110px);
+    background-color: #f4f4f4;
+}
+
+.card {
+    width: 600px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #402868; /* Цвет текста заголовка */
+}
+
+.form-control {
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #402868; /* Цвет кнопки */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #301a57; /* Цвет кнопки при наведении */
+}

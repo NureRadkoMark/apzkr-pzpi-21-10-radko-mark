@@ -1,0 +1,50 @@
+.add-pet-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-pet-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.add-pet-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.add-pet-container input[type="text"],
+.add-pet-container input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-pet-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add-pet-container button:hover {
+    background-color: #0056b3;
+}
+
+.add-pet-container p {
+    text-align: center;
+    font-weight: bold;
+    color: #d9534f;
+}

@@ -1,0 +1,58 @@
+.appointments-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Выравнивание текста по левому краю */
+}
+
+.date-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирование элементов по горизонтали */
+    margin-bottom: 20px;
+}
+
+.date-filter label {
+    margin-right: 10px;
+}
+
+.date-filter input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.date-filter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.date-filter button:hover {
+    background-color: #0056b3;
+}
+
+.appointments-list {
+    margin-top: 20px; /* Расстояние от фильтра до списка записей */
+}
+
+.appointment-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Расстояние между записями */
+}
+
+.appointment-item p {
+    margin-bottom: 5px;
+}

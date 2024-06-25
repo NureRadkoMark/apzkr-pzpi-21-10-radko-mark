@@ -1,0 +1,226 @@
+.department-details-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.department-section,
+.employees-section {
+    margin-bottom: 30px;
+}
+
+.department-field {
+    margin-bottom: 15px;
+}
+
+.department-field label {
+    display: block;
+    font-weight: bold;
+}
+
+.department-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.employee-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.employee-field {
+    margin-bottom: 8px;
+}
+
+.employee-field label {
+    font-weight: bold;
+}
+
+.employee-buttons {
+    margin-top: 10px;
+}
+
+.employee-buttons button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.add-employee-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.save-button,
+.cancel-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.edit-employee-modal {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.edit-employee-modal h3 {
+    margin-bottom: 20px;
+}
+
+.edit-employee-modal .employee-field {
+    margin-bottom: 15px;
+}
+
+.edit-employee-modal .employee-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edit-employee-modal .employee-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.edit-employee-modal .save-button {
+    background-color: #4CAF50;
+}
+
+.edit-employee-modal .cancel-button {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+.employee-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.employee-header h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.employee-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.employee-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.employee-field {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.employee-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.employee-field p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.employee-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.employee-buttons button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
